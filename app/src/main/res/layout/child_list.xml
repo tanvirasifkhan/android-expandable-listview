@@ -7,11 +7,11 @@
     <TextView
         android:id="@+id/child"
         android:text="@string/child_text"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="5dp"
-        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp"
         android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
