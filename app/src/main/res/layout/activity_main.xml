@@ -7,6 +7,17 @@
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <ExpandableListView
+            android:id="@+id/expandable_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>
