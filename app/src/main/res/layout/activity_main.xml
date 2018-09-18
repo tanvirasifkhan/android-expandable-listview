@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
+    <include android:id="@+id/toolbar" layout="@layout/custom_toolbar"/>
+
     <android.support.v7.widget.CardView
         android:layout_margin="10dp"
         android:elevation="3dp"
